@@ -5,7 +5,9 @@ class Contact extends Component {
         return(
             <div>
                 <h2>Questions?</h2>
-                <p>The easiest thing to do is post on our forum</p>
+                <p>Jackie Knight</p>
+                <p>812-664-3850</p>
+                <p>Nashville, TN</p>
             </div>
         );
     }
