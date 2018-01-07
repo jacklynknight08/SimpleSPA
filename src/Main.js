@@ -21,7 +21,8 @@ class Main extends Component {
                         <li><NavLink to="/contact">Contact</NavLink></li>
                     </ul>
                     <div className="content">
-                        <Route path="/" component={Home}/>
+                    {/* exact path ensures the Route is only active if the path is an exact match for what is loaded */}
+                        <Route exact path="/" component={Home}/>
                         <Route path="/stuff" component={Stuff}/>
                         <Route path="/contact" component={Contact}/>
                     </div>
