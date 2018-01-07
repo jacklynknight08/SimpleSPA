@@ -14,7 +14,7 @@ class Main extends Component {
         return(
             <HashRouter>
                 <div>
-                    <h1>Simple SPA</h1>
+                    <h1>Practice With React Router</h1>
                     <ul className="header">
                     {/* exact to ensures that the Home link isn't always highlighted */}
                         <li><NavLink exact to="/">Home</NavLink></li>

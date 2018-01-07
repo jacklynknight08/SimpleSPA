@@ -5,7 +5,7 @@ class Home extends Component {
         return(
             <div>
                 <h2>Hello</h2>
-                <p>Lorem ipsum shit. Cras facilisis urna ornare ex volutpat, et
+                <p>Jackie's practice using React Router. Cras facilisis urna ornare ex volutpat, et
                     convallis erat elementum. Ut aliquam, ipsum vitae
                     gravida suscipit, metus dui bibendum est, eget rhoncus nibh
                     metus nec massa. Maecenas hendrerit laoreet augue
@@ -13,7 +13,7 @@ class Home extends Component {
                     dis parturient montes, nascetur ridiculus mus.
                 </p>
                 <p>
-                    More stuff placed here.
+                    More things placed here. Extra sentences.
                 </p>
             </div>
         );
